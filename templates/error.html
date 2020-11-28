@@ -1,0 +1,10 @@
+{% extends 'home.html' %}
+
+{% block content %}
+<div class="alert alert-danger" role="alert">
+  {{msg}}
+</div>
+<form action="/">
+  <button type="submit" class="btn btn-primary btn-block mt-4">Home</button>
+</form>
+{% endblock %}
